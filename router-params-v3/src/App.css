@@ -1,3 +1,7 @@
+.container {
+  width: 75%;
+}
+
 img {
   width: 175px;
   float: left;
@@ -6,21 +10,25 @@ img {
 img.nf {
   border: none;
 }
-img.hb {
-  height: 80px;
-  padding: 10px 10px;
-}
-img.hu {
-  height: 80px;
-  padding: 10px 10px;
-}
+img.hb,
+img.hu,
 img.pr {
   height: 80px;
+  padding: 0 10px;
+  border: 1px solid #000;
 }
+
+.header {
+  text-transform: uppercase;
+  margin-left: 40px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
 div h3 {
   width: 350px;
   float: none;
-  margin-top: 165px;
+  margin-top: 110px;
   margin-left: auto;
   margin-right: auto;
   text-transform: capitalize;
